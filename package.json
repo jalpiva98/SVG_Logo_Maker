@@ -1,5 +1,5 @@
 {
-  "name": "svg-logo-maker",
+  "name": "svg_git logo_maker",
   "version": "1.0.0",
   "description": "Generate an svg logo in comand line.",
   "main": "index.js",
