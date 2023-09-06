@@ -1,7 +1,7 @@
 // GIVEN a command-line application that accepts user input
-const {Circle, Square, Triangle } = require('../SVG-logo-generator/TEMP/lib/shapes');
+const {Circle, Square, Triangle } = require('../SVG_Logo_Maker/lib/shapes');
 const inquirer = require('inquirer');
-const SVG = require('../SVG-logo-generator/TEMP/lib/svg')
+const SVG = require('../SVG_Logo_Maker/lib/svg')
 const {writeFile} = require('fs/promises')
 
 // WHEN I am prompted for text to define 3 characters, text color, shape, and shape color
