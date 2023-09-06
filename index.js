@@ -59,7 +59,7 @@ function init() {
         const svg = new SVG();
         svg.setTextColor(textColor, characters);
         svg.setShape(shapeType);
-        return writeFile(examples/'logo.svg', svg.render())
+        return writeFile('logo.svg', svg.render())
     }).then(()=>{
         console.log('Generated logo.svg');
     }).catch((error)=>{
