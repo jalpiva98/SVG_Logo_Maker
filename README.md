@@ -19,29 +19,24 @@ Clone the repository to your local machine:
 ```
 
 ```bash
-Copy code
 git clone https://github.com/jalpiva98/SVG_Logo_Maker
 Navigate to the project directory:
 ```
 
 ```bash
-Copy code
 cd svg-logo-generator
 Install the project dependencies:
 ```
 
 ```bash
-Copy code
 npm install
 Usage
 To generate your custom logo, run the following command:
 ```
 
 ```bash
-Copy code
 node index.js
 Follow the prompts to input your logo text, text color, shape, and shape color. Once you've provided all the necessary information, the application will generate an SVG file named logo.svg in the project directory.
-
 ```
 
 ## License
