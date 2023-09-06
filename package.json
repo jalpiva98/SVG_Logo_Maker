@@ -1,0 +1,19 @@
+{
+  "name": "svg-logo-maker",
+  "version": "1.0.0",
+  "description": "Generate an svg logo in comand line.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "private": true,
+  "keywords": [],
+  "author": "Alejandro P",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
